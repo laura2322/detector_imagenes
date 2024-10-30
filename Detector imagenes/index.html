@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Búsqueda de Imágenes en Pixabay</title>
+    <style>
+        #image-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+        img {
+            max-width: 200px;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Búsqueda de Imágenes en Pixabay</h1>
+    <input type="text" id="keyword" placeholder="Ingresa una palabra clave">
+    <button id="search-button">Buscar</button>
+    <div id="image-container"></div>
+
+    <script src="Dectector_imagenes.js"></script>
+</body>
+</html>
